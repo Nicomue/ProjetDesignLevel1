@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 11494318}
   - component: {fileID: 11485350}
   - component: {fileID: 11455042}
-  - component: {fileID: 11462046}
   - component: {fileID: 11431242}
   - component: {fileID: 11431628}
   - component: {fileID: 11475426}
@@ -30,6 +29,8 @@ GameObject:
   - component: {fileID: 114679018816720190}
   - component: {fileID: -4342895061800036961}
   - component: {fileID: 1608910692237574330}
+  - component: {fileID: 4046857289023492077}
+  - component: {fileID: -7351856240022864920}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -266,41 +267,6 @@ MonoBehaviour:
   TouchTheGroundFeedback: {fileID: 0}
   MinimumAirTimeBeforeFeedback: 0.2
   StopWalkingWhenCollidingWithAWall: 0
---- !u!114 &11462046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2bb48ea7e7fc4c0fa43dce17235f4f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  DashDistance: 5
-  DashForce: 30
-  ResetForcesOnExit: 1
-  Aim:
-    AimControl: 2
-    RotationMode: 2
-    MinimumAngle: -180
-    MaximumAngle: 180
-    CurrentAngle: 0
-  MinimumInputThreshold: 0.1
-  FlipCharacterIfNeeded: 1
-  AutoCorrectTrajectory: 1
-  DashCooldown: 0.3
-  LimitedDashes: 0
-  SuccessiveDashAmount: 1
-  SuccessiveDashesLeft: 1
-  SuccessiveDashResetMethod: 0
-  SuccessiveDashResetDuration: 2
 --- !u!114 &11431242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -639,6 +605,54 @@ MonoBehaviour:
   DamageTakenWhenCrushed: 10
   DamageTakenFlickerDuration: 0.2
   DamageTakenInvincibilityDuration: 0.6
+--- !u!114 &4046857289023492077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e12507b9c91bd542b1b569babe3b98c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 0
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  DashDistance: 3
+  DashForce: 20
+  ResetForcesOnExit: 0
+  Aim:
+    AimControl: 2
+    RotationMode: 0
+    MinimumAngle: -180
+    MaximumAngle: 180
+    CurrentAngle: 0
+  MinimumInputThreshold: 0.1
+  FlipCharacterIfNeeded: 1
+  AutoCorrectTrajectory: 1
+  DashCooldown: 1
+  LimitedDashes: 0
+  SuccessiveDashAmount: 1
+  SuccessiveDashesLeft: 1
+  SuccessiveDashResetMethod: 0
+  SuccessiveDashResetDuration: 2
+  TargetDamageOnTouch: {fileID: 0}
+--- !u!114 &-7351856240022864920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ec0b631e2867a4b8d8d300bee9e834, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &945917503814693031
 GameObject:
   m_ObjectHideFlags: 0
