@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 114000012396418956}
   - component: {fileID: 114000012715910344}
   m_Layer: 13
-  m_Name: Ennemi 1
+  m_Name: Werewolf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
