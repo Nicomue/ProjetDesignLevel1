@@ -1823,35 +1823,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1061997795502508015, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3184113482524960640, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: m_Name
       value: Soldier NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 3184113482524960640, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3186971979926858677, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: m_Size.x
-      value: 20.427444
+      value: 15.200626
       objectReference: {fileID: 0}
     - target: {fileID: 3186971979926858677, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: m_Size.y
-      value: 14.368833
+      value: 10.329935
       objectReference: {fileID: 0}
     - target: {fileID: 3186971979926858677, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: m_Offset.x
-      value: 5.726593
+      value: 3.113185
       objectReference: {fileID: 0}
     - target: {fileID: 3186971979926858677, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: m_Offset.y
-      value: 1.0190339
+      value: -1.0004148
       objectReference: {fileID: 0}
     - target: {fileID: 3529803619596416715, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: m_SortingLayer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3529803619596416715, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3529803619596416715, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
