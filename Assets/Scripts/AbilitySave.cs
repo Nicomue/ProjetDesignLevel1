@@ -16,6 +16,6 @@ public class AbilitySave : MonoBehaviour
     public void PermitJetpack()
     {
         isJetpackPermitted = true;
-        GetComponent<CharacterDamageDash>().PermitAbility(true);
+        GetComponent<CharacterDash>().PermitAbility(true);
     }
 }

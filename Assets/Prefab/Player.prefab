@@ -29,8 +29,8 @@ GameObject:
   - component: {fileID: 114679018816720190}
   - component: {fileID: -4342895061800036961}
   - component: {fileID: 1608910692237574330}
-  - component: {fileID: 4046857289023492077}
   - component: {fileID: -7351856240022864920}
+  - component: {fileID: 7241251548325201438}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -605,7 +605,7 @@ MonoBehaviour:
   DamageTakenWhenCrushed: 10
   DamageTakenFlickerDuration: 0.2
   DamageTakenInvincibilityDuration: 0.6
---- !u!114 &4046857289023492077
+--- !u!114 &-7351856240022864920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -614,7 +614,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 119040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e12507b9c91bd542b1b569babe3b98c, type: 3}
+  m_Script: {fileID: 11500000, guid: e7ec0b631e2867a4b8d8d300bee9e834, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7241251548325201438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2bb48ea7e7fc4c0fa43dce17235f4f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AbilityStartFeedbacks: {fileID: 0}
@@ -623,7 +635,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   DashDistance: 3
-  DashForce: 20
+  DashForce: 40
   ResetForcesOnExit: 0
   Aim:
     AimControl: 2
@@ -640,19 +652,6 @@ MonoBehaviour:
   SuccessiveDashesLeft: 1
   SuccessiveDashResetMethod: 0
   SuccessiveDashResetDuration: 2
-  TargetDamageOnTouch: {fileID: 0}
---- !u!114 &-7351856240022864920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7ec0b631e2867a4b8d8d300bee9e834, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &945917503814693031
 GameObject:
   m_ObjectHideFlags: 0

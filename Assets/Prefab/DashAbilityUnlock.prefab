@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 760156842546861252}
   - component: {fileID: 7175898291534280760}
   - component: {fileID: 7903164990780356458}
-  - component: {fileID: 8671336596705008635}
+  - component: {fileID: 6247639754007565114}
   m_Layer: 0
   m_Name: DashAbilityUnlock
   m_TagString: Untagged
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &8671336596705008635
+--- !u!114 &6247639754007565114
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
