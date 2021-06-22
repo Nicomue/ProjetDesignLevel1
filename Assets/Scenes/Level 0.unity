@@ -1870,6 +1870,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
+      propertyPath: ActivableMoreThanOnce
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
       propertyPath: Dialogue.Array.data[0]
       value: 'Soldier: Red ! I find you !'
       objectReference: {fileID: 0}
