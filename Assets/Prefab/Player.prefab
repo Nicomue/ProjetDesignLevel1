@@ -486,7 +486,7 @@ MonoBehaviour:
   TemporaryInvulnerable: 0
   InitialHealth: 10
   MaximumHealth: 10
-  Invulnerable: 0
+  Invulnerable: 1
   DamageFeedbacks: {fileID: 0}
   FlickerSpriteOnHit: 1
   FlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
