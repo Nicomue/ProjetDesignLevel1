@@ -26,7 +26,6 @@ GameObject:
   - component: {fileID: 114000011047386926}
   - component: {fileID: 114000011356687900}
   - component: {fileID: 114408133200064378}
-  - component: {fileID: 114679018816720190}
   - component: {fileID: -4342895061800036961}
   - component: {fileID: 1608910692237574330}
   - component: {fileID: -7351856240022864920}
@@ -486,7 +485,7 @@ MonoBehaviour:
   TemporaryInvulnerable: 0
   InitialHealth: 10
   MaximumHealth: 10
-  Invulnerable: 1
+  Invulnerable: 0
   DamageFeedbacks: {fileID: 0}
   FlickerSpriteOnHit: 1
   FlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
@@ -530,29 +529,6 @@ MonoBehaviour:
   TransitionForcesMode: 1
   ResetCharacterStateOnGravityChange: 1
   DrawDebugGravityArrow: 1
---- !u!114 &114679018816720190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f6acc45a765d864ba3d69b6c84471f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  InWater: 0
-  SwimHeight: 3.025
-  SwimAnimationDuration: 0.8
-  WaterEntryEffect: {fileID: 143758, guid: 14f27396ac5b4d84cb17d403de44b8a1, type: 3}
-  WaterExitEffect: {fileID: 143758, guid: 14f27396ac5b4d84cb17d403de44b8a1, type: 3}
-  WaterExitForce: {x: 0, y: 12}
 --- !u!114 &-4342895061800036961
 MonoBehaviour:
   m_ObjectHideFlags: 0
