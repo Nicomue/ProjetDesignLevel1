@@ -4817,7 +4817,7 @@ GameObject:
   - component: {fileID: 114000010596316938}
   - component: {fileID: 114587324304491438}
   m_Layer: 0
-  m_Name: GolemWeapon
+  m_Name: TrollWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4961,7 +4961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MutualizeWaitingPools: 0
   NestWaitingPool: 1
-  GameObjectToPool: {fileID: 100000, guid: 3a0bb09f5b44a62428a993d8fd2dc268, type: 3}
+  GameObjectToPool: {fileID: 100000, guid: 4d5ccb2346a9bae48a7beee74f0d614d, type: 3}
   PoolSize: 20
   PoolCanExpand: 1
 --- !u!1 &1000014251668054

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 114000010385110490}
   - component: {fileID: -2711884367203005812}
   m_Layer: 12
-  m_Name: GolemProjectiles
+  m_Name: TrollProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 1177953632, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -55,7 +55,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.45833334, y: 0.5416667}
+    oldSize: {x: 0.5416667, y: 0.5208333}
     newSize: {x: 0.45833334, y: 0.5416667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -216,7 +216,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7222279969239902193, guid: eb4086c140e9d9d4da6bf3e5dd52eadb,
+  m_Sprite: {fileID: 2094347899734262227, guid: eb4086c140e9d9d4da6bf3e5dd52eadb,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

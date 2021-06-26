@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 11479924}
   - component: {fileID: 114173583049443976}
   m_Layer: 13
-  m_Name: Golem_Boss
+  m_Name: TrollLauncher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SortingLayerID: 1795597123
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5688739654425014672, guid: b86f3d8dd692c5f4bb18da1a2935f3bd,
+  m_Sprite: {fileID: -6339540434269395999, guid: e3e241714d955b04aa3df8cca4f80030,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -131,18 +131,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.23150349, y: -0.11197424}
+  m_Offset: {x: -0.14255238, y: 0.13870668}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 2.875}
+    oldSize: {x: 1.5625, y: 2.75}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.4153957, y: 2.976798}
+  m_Size: {x: 2.1700764, y: 2.4754362}
   m_EdgeRadius: 0
 --- !u!50 &50140002439449648
 Rigidbody2D:
@@ -423,7 +423,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
-  InitialWeapon: {fileID: 114000010596316938, guid: 6e832ac8cb14dbf448778dcfe3d77ee3,
+  InitialWeapon: {fileID: 114000010596316938, guid: 1d8d9ddf93dee9c41a527fc560edd930,
     type: 3}
   CanPickupWeapons: 0
   WeaponAttachment: {fileID: 0}
