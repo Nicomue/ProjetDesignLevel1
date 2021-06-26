@@ -177,14 +177,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e07de691a1179d4c8fc231dc7dcf219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CycleOption: 2
+  CycleOption: 1
   LoopInitialMovementDirection: 1
   PathElements:
   - PathElementPosition: {x: 0, y: -1.75, z: 0}
     Delay: 0
   - PathElementPosition: {x: 0, y: 2.31, z: 0}
     Delay: 0
-  MovementSpeed: 1
+  MovementSpeed: 2
   AccelerationType: 0
   Acceleration:
     serializedVersion: 2
