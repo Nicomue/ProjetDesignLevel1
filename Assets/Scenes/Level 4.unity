@@ -36286,11 +36286,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -104.28
+      value: -104.9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -39.85
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36777,9 +36777,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6432d8d1924b43748819ec079d9d2eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonActivatedRequirement: 2
+  ButtonActivatedRequirement: 3
   RequiresPlayerType: 1
-  RequiresButtonActivationAbility: 1
+  RequiresButtonActivationAbility: 0
   PreventJumpsWhileInThisZone: 0
   Activable: 1
   AutoActivation: 1
@@ -36796,7 +36796,7 @@ MonoBehaviour:
   InputButton: Interact
   InputKey: 32
   AnimationTriggerParameterName: 
-  UseVisualPrompt: 1
+  UseVisualPrompt: 0
   ButtonPromptPrefab: {fileID: 0}
   ButtonPromptText: A
   ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
@@ -36830,9 +36830,9 @@ MonoBehaviour:
   DistanceFromTop: 2
   BoxesFollowZone: 0
   CanMoveWhileTalking: 1
-  ButtonHandled: 1
-  MessageDuration: 5
-  ActivableMoreThanOnce: 1
+  ButtonHandled: 0
+  MessageDuration: 3
+  ActivableMoreThanOnce: 0
   InactiveTime: 2
   Dialogue:
   - '*WARNING - BEWARE OF TROLLS*
@@ -39370,8 +39370,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1586252730}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5599, y: -0.0511, z: 17.240313}
-  m_LocalScale: {x: 7.32963, y: 6.677956, z: 1}
+  m_LocalPosition: {x: -0.0583, y: -0.0511, z: 17.240313}
+  m_LocalScale: {x: 5.2486963, y: 4.9602613, z: 1}
   m_Children: []
   m_Father: {fileID: 2121762839}
   m_RootOrder: 0

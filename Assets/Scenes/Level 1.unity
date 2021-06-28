@@ -2356,7 +2356,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238568819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 192.502, y: -9.001, z: 0}
+  m_LocalPosition: {x: 192.03, y: -8.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2971,7 +2971,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354712010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -83.9, y: 0.9, z: 0}
+  m_LocalPosition: {x: -85.2, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -29909,9 +29909,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6432d8d1924b43748819ec079d9d2eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonActivatedRequirement: 2
+  ButtonActivatedRequirement: 0
   RequiresPlayerType: 1
-  RequiresButtonActivationAbility: 1
+  RequiresButtonActivationAbility: 0
   PreventJumpsWhileInThisZone: 0
   Activable: 1
   AutoActivation: 1
@@ -29962,9 +29962,9 @@ MonoBehaviour:
   DistanceFromTop: 2
   BoxesFollowZone: 0
   CanMoveWhileTalking: 1
-  ButtonHandled: 1
+  ButtonHandled: 0
   MessageDuration: 3
-  ActivableMoreThanOnce: 1
+  ActivableMoreThanOnce: 0
   InactiveTime: 5
   Dialogue:
   - '*To Mount RockBett*
@@ -33439,9 +33439,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6432d8d1924b43748819ec079d9d2eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonActivatedRequirement: 2
+  ButtonActivatedRequirement: 0
   RequiresPlayerType: 1
-  RequiresButtonActivationAbility: 1
+  RequiresButtonActivationAbility: 0
   PreventJumpsWhileInThisZone: 0
   Activable: 1
   AutoActivation: 1
@@ -33492,9 +33492,9 @@ MonoBehaviour:
   DistanceFromTop: 2
   BoxesFollowZone: 0
   CanMoveWhileTalking: 1
-  ButtonHandled: 1
+  ButtonHandled: 0
   MessageDuration: 3
-  ActivableMoreThanOnce: 1
+  ActivableMoreThanOnce: 0
   InactiveTime: 2
   Dialogue:
   - '*Lake Amiromarsch*'
@@ -35646,8 +35646,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684869512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0134, y: 1.0588, z: 17.240313}
-  m_LocalScale: {x: 4.8874135, y: 4.9383297, z: 1}
+  m_LocalPosition: {x: 0.0104, y: 1.7484, z: 17.240313}
+  m_LocalScale: {x: 4.1759014, y: 5.2017503, z: 1}
   m_Children: []
   m_Father: {fileID: 2121762839}
   m_RootOrder: 0
