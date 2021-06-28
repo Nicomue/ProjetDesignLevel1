@@ -1881,7 +1881,7 @@ PrefabInstance:
     - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: Dialogue.Array.size
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
@@ -1944,7 +1944,27 @@ PrefabInstance:
     - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: Dialogue.Array.data[10]
-      value: 'Red: Shut the fuck up and get of my way !'
+      value: 'Soldier: ...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: Dialogue.Array.data[11]
+      value: 'Red: ...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: Dialogue.Array.data[12]
+      value: 'Soldier: You don''t know where to go right ?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: Dialogue.Array.data[13]
+      value: 'Red: ...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: Dialogue.Array.data[14]
+      value: 'Soldier: You have to travel accros'
       objectReference: {fileID: 0}
     - target: {fileID: 6686324338850679486, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
