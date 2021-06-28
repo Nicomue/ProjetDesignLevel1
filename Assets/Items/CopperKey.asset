@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56bfaa6641535b642bc1b478c9d3c065, type: 3}
   m_Name: CopperKey
   m_EditorClassIdentifier: 
-  ItemID: KeyCopper
+  ItemID: CopperKey
   TargetInventoryName: MainInventory
   Usable: 1
   Consumable: 1
