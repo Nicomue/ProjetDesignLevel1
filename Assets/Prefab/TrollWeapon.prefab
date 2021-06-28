@@ -4855,9 +4855,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerMode: 0
-  DelayBeforeUse: 0
+  DelayBeforeUse: 3
   DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 5
+  TimeBetweenUses: 2
   TimeBetweenUsesReleaseInterruption: 1
   Interruptable: 0
   InitializeOnStart: 0
