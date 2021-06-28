@@ -28658,7 +28658,7 @@ MonoBehaviour:
   TextColor: {r: 1, g: 1, b: 1, a: 1}
   ArrowVisible: 1
   TextFont: {fileID: 0}
-  TextSize: 20
+  TextSize: 16
   Alignment: 4
   FadeDuration: 0.2
   TransitionTime: 0.2
@@ -32188,7 +32188,7 @@ MonoBehaviour:
   TextColor: {r: 1, g: 1, b: 1, a: 1}
   ArrowVisible: 1
   TextFont: {fileID: 0}
-  TextSize: 20
+  TextSize: 16
   Alignment: 4
   FadeDuration: 0.2
   TransitionTime: 0.2
@@ -32196,7 +32196,7 @@ MonoBehaviour:
   BoxesFollowZone: 0
   CanMoveWhileTalking: 1
   ButtonHandled: 1
-  MessageDuration: 5
+  MessageDuration: 3
   ActivableMoreThanOnce: 1
   InactiveTime: 2
   Dialogue:
