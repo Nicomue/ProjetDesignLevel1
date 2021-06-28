@@ -1430,7 +1430,8 @@ GameObject:
   m_Component:
   - component: {fileID: 213527045}
   - component: {fileID: 213527046}
-  m_Layer: 0
+  - component: {fileID: 213527047}
+  m_Layer: 21
   m_Name: LevelManager
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -1445,7 +1446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213527044}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -106.2, y: 5.4, z: 0}
+  m_LocalPosition: {x: -70.8, y: -3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1540,6 +1541,19 @@ MonoBehaviour:
         m_RotationOrder: 4
     ProgressBarSpeed: 5
     FadeMode: 0
+--- !u!65 &213527047
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213527044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 34.18, y: 11.58, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &225384491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,13 +1889,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
       propertyPath: DelayBetweenUses
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: Dialogue.Array.size
-      value: 15
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
@@ -1964,7 +1983,22 @@ PrefabInstance:
     - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
       propertyPath: Dialogue.Array.data[14]
-      value: 'Soldier: You have to travel accros'
+      value: 'Soldier: You have to travel accross the dark forest and the Lake Amiromarsch'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: Dialogue.Array.data[15]
+      value: 'Soldier: Then climb the Pooh Mines to reach Mount RockBett'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: Dialogue.Array.data[16]
+      value: 'Soldier: There you will find Poalafrire and his army'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4985328331630067064, guid: 453962994de79a847b4883c1b1004d98,
+        type: 3}
+      propertyPath: Dialogue.Array.data[17]
+      value: 'Red: Cool .... now get the fuck out'
       objectReference: {fileID: 0}
     - target: {fileID: 6686324338850679486, guid: 453962994de79a847b4883c1b1004d98,
         type: 3}
