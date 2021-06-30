@@ -41687,6 +41687,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5698926155667355219, guid: addf93ce5155e67428a2e08a8a6a46b1,
+        type: 3}
+      propertyPath: PathElements.Array.data[0].PathElementPosition.x
+      value: -0.018066406
+      objectReference: {fileID: 0}
+    - target: {fileID: 5698926155667355219, guid: addf93ce5155e67428a2e08a8a6a46b1,
+        type: 3}
+      propertyPath: PathElements.Array.data[0].PathElementPosition.y
+      value: -0.07225227
+      objectReference: {fileID: 0}
     - target: {fileID: 5698926155667355228, guid: addf93ce5155e67428a2e08a8a6a46b1,
         type: 3}
       propertyPath: m_SortingLayer
@@ -41700,22 +41710,22 @@ PrefabInstance:
     - target: {fileID: 5698926155667355229, guid: addf93ce5155e67428a2e08a8a6a46b1,
         type: 3}
       propertyPath: m_Size.x
-      value: 1.1004028
+      value: 2.8344727
       objectReference: {fileID: 0}
     - target: {fileID: 5698926155667355229, guid: addf93ce5155e67428a2e08a8a6a46b1,
         type: 3}
       propertyPath: m_Size.y
-      value: 2.3688807
+      value: 3.7416759
       objectReference: {fileID: 0}
     - target: {fileID: 5698926155667355229, guid: addf93ce5155e67428a2e08a8a6a46b1,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.43182373
+      value: 0.21505737
       objectReference: {fileID: 0}
     - target: {fileID: 5698926155667355229, guid: addf93ce5155e67428a2e08a8a6a46b1,
         type: 3}
       propertyPath: m_Offset.y
-      value: -0.69292855
+      value: -0.006531
       objectReference: {fileID: 0}
     - target: {fileID: 5698926155667355231, guid: addf93ce5155e67428a2e08a8a6a46b1,
         type: 3}
